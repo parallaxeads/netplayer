@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-08-17T17:21:20.128Z",
+  "tests": [
+    {
+      "name": "Build Size",
+      "status": "passed",
+      "message": "Tamanhos de build dentro dos limites",
+      "data": {
+        "buildSizeMB": 1.75,
+        "distSizeMB": 284.65,
+        "maxBuildSize": 50,
+        "maxDistSize": 500
+      },
+      "timestamp": "2025-08-17T17:21:20.138Z"
+    },
+    {
+      "name": "File Structure",
+      "status": "passed",
+      "message": "Estrutura de arquivos completa",
+      "data": {
+        "requiredFiles": 8,
+        "requiredDirectories": 6,
+        "missingFiles": [],
+        "missingDirs": []
+      },
+      "timestamp": "2025-08-17T17:21:20.139Z"
+    },
+    {
+      "name": "Dependencies",
+      "status": "passed",
+      "message": "Todas as dependências críticas presentes",
+      "data": {
+        "dependencies": 15,
+        "devDependencies": 4,
+        "total": 19,
+        "missingCritical": []
+      },
+      "timestamp": "2025-08-17T17:21:20.140Z"
+    },
+    {
+      "name": "Code Quality",
+      "status": "warning",
+      "message": "Muitos arquivos grandes (11). Média de linhas alta (440)",
+      "data": {
+        "totalFiles": 23,
+        "totalLines": 10109,
+        "avgLinesPerFile": 440,
+        "largeFiles": 11,
+        "emptyFiles": 0
+      },
+      "timestamp": "2025-08-17T17:21:20.144Z"
+    },
+    {
+      "name": "Assets",
+      "status": "passed",
+      "message": "Assets otimizados",
+      "data": {
+        "jsFiles": 1,
+        "cssFiles": 1,
+        "jsSizeMB": 0.32,
+        "cssSizeMB": 0.04
+      },
+      "timestamp": "2025-08-17T17:21:20.145Z"
+    },
+    {
+      "name": "Configuration",
+      "status": "passed",
+      "message": "Configurações corretas",
+      "data": {
+        "hasElectronMain": true,
+        "hasElectronBuild": "com.iptv.player.pro",
+        "hasScripts": "npm run build && electron-builder"
+      },
+      "timestamp": "2025-08-17T17:21:20.146Z"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "warnings": 0,
+    "warning": null
+  }
+}
